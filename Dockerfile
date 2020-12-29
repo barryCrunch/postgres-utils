@@ -1,4 +1,4 @@
-FROM mdillon/postgis:9.6
+FROM postgres
 RUN apt update -y
 RUN apt install -y curl wget
 RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
